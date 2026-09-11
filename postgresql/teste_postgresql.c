@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <libpq-fe.h>
 
-int main(void)
+int main()
 {
     printf("Versao da libpq: %d\n", PQlibVersion());
 

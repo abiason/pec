@@ -3,7 +3,7 @@
 #include <string.h>
 #include <libpq-fe.h>
 
-int main(void)
+int main()
 {
     PGconn *conexao;
     PGresult *resultado;
