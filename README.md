@@ -6,3 +6,8 @@ Comando para compilar os programas com a lib do PostgreSQL:
 Comando para compilar os programas com a lib do MongoDB:
 
     gcc <NOME_ARQUIVO>.c -o <NOME_ARQUIVO>.exe -D__USE_MINGW_ANSI_STDIO=1 -DUTF8PROC_EXPORTS -LC:\msys64\ucrt64\lib -lmongoc2 -lbson2
+
+
+Comando para compilar a Calculadora:
+
+    gcc main.c util.c operacao.c -o calculadora.exe
