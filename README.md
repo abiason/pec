@@ -1,3 +1,11 @@
+<b>Compilando Exemplos</b>
+
+
+Comando para compilar o programa de teste do ambiente de desenvolvimento:
+
+   gcc teste.c -o teste.exe
+
+
 Comando para compilar os programas com a lib do PostgreSQL:
 
     gcc <NOME_ARQUIVO>.c -o <NOME_ARQUIVO>.exe -IC:\msys64\ucrt64\include -LC:\msys64\ucrt64\lib -lpq
